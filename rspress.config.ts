@@ -4,6 +4,7 @@ export default defineConfig({
   root: 'docs',
   title: 'Enterprise AI Docs',
   description: 'Documentation for the Enterprise AI platform',
+  base: '/doc-restructure/',
   themeConfig: {
     nav: [
       { text: 'Build', link: '/build/' },
